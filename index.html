@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <script defer src="./js.js"></script>
+    <title>JS CALCULATOR</title>
+</head>
+<body>
+<div class="wrap">
+    <div class="result">
+        <div class=" result__bl ">0</div>
+    </div>
+    <div class="button operator" onclick="clearAll(`0`)">C</div>
+    <div class="button operator" onclick="backLast()">&larr;</div>
+    <div class="button operator" onclick="procent()">%</div>
+    <div class="button operator" onclick="operatorMath(`&divide;`)">&divide;</div>
+
+    <div class="button number">7</div>
+    <div class="button number">8</div>
+    <div class="button number">9</div>
+    <div class="button operator" onclick="operatorMath(`&times;`)">&times;</div>
+
+    <div class="button number">4</div>
+    <div class="button number">5</div>
+    <div class="button number">6</div>
+    <div class="button operator" onclick="operatorMath(`&ndash;`)">&ndash;</div>
+
+    <div class="button number">1</div>
+    <div class="button number">2</div>
+    <div class="button number">3</div>
+    <div class="button operator" onclick="operatorMath(`+`)">+</div>
+
+    <div class="button number">0</div>
+    <div class="button dot" onclick="operatorMath(`,`)">,</div>
+     <div class="button operator" onclick="Sqrt()">&Sqrt;</div>
+    <div class="button operator equal" onclick="equal()">=</div>
+    </div>
+</body>
+</html>
