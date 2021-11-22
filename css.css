@@ -64,3 +64,8 @@ user-select: all;
 .dot{
     color: #111;
 }
+@media screen and (max-width:500px){
+.result{
+    margin-left: -4vmax;
+}
+}
